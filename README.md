@@ -28,7 +28,6 @@ python frEx.py -frex -input inputfile.mp4 -output output_folder -start hh:mm:ss:
 `
 
 Example:
-
 `
 python frEx.py -frex -input video.mp4 -output data -start 00:01:21:200 -duration 00:02:30:00 -interval 00:00:00:500
 `
