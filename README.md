@@ -1,8 +1,8 @@
-# Erame Extractor
+# Frame Extractor
 A simple tool to naively cut and extract frames from a .mp4 video
 
 # Modes
-Three different modes are available: _cut_ to cut a video, _duration_ to extract frames for a certain time at a given interval, _frame number_ to extract the wanted number of frame each interval unit
+Three different modes are available: _cut_ to cut a video, _duration_ to extract frames for a certain time at a given interval, _frame number_ to extract the wanted number of frame each interval unit.
 
 * * *
 
