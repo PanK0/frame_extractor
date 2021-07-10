@@ -26,7 +26,10 @@ todo: check for video length
 '''
 def extractFrames_DUR(pathIn, pathOut,start_ex, duration, interval)  :
     # Create output folder
-    os.makedirs(pathOut, exist_ok=True)
+    # os.mkdir() creates a new dir. If it already exists, it raises an error
+    # os.makedirs() creates a new dir. If it already exists, it OVERWRITES the previous one. Use it wisely.
+    os.mkdir(pathOut)
+    #os.makedirs(pathOut, exist_ok=True)
 
     # Open the video and get some properties
     cap = cv2.VideoCapture(pathIn)
