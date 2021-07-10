@@ -275,15 +275,12 @@ def main()  :
         elif (mode == MODE_DUR) :
             extractFrames_DUR(input_file, output_file,start_ex, duration, interval)
         
-
-
+    # Help print
     elif ('-help' in argv) :
         print("Example 0: python frEx.py -cut -input input_file -output output_file -start hh:mm:ss:dd -end hh:mm:ss:dd")
         print("Example 1: python frEx.py -frex -input inputfile.mp4 -output output_folder -start hh:mm:ss:dd -duration hh:mm:ss:dd")
         print("Example 2: python frEx.py -frex -input inputfile.mp4 -output output_folder -start hh:mm:ss:dd -nf number_of_frames -interval hh:mm:ss:dd")
-
-
-    #extractFrames('cut.mp4', 'data')
+        
 
 if __name__=="__main__":
     main()
