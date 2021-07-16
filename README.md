@@ -20,7 +20,7 @@ python frEx.py -cut -input video.mp4 -output cut.mp4 -start 00:03:27:500 -end 00
 In this way you will cut the video _video.mp4_ from the **minute 3, second 27.5** to the **minute 5, second 25.1**.
 
 Notes: 
-- If you don't specify the output name after the command _-output_, then a default name that is inputname_\_out.mp4_ will be set
+- If you don't specify the output name after the command _-output_, then a default name that is inputname\__out.mp4_ will be set
 - If _-start_ command is omitted, then the cut will start at default time set to 00:00:00.00
 - If _-end_ command is omitted, then the cut will end at default time set to video duration time
 * * *
@@ -39,7 +39,7 @@ python frEx.py -frex -input video.mp4 -output data -start 00:01:21:200 -duration
 In this way you will extract **1 frame every 0.5 seconds** from the video _video.mp4_ starting from **minute 1, second 21.2** for a total time of **minutes 2, seconds 30**.
 
 Notes: 
-- If you don't specify the output name after the command _-output_, then a default name that is inputname_\_out.mp4_ will be set
+- If you don't specify the output name after the command _-output_, then a default name that is inputname\__out.mp4_ will be set
 - If _-start_ command is omitted, then the frame extraction will start at default time set to 00:00:00.00
 
 * * *
@@ -58,7 +58,7 @@ python frEx.py -frex -input video.mp4 -output data -start 00:02:15:500 -nf 10 -i
 In this way you will extract **nf = 10 frames** from the video _video.mp4_ starting from **minute 02, second 15.5** with an **interval of 1 frame every 0.1 seconds**.
 
 Notes: 
-- If you don't specify the output name after the command _-output_, then a default name that is inputname_\_out.mp4_ will be set
+- If you don't specify the output name after the command _-output_, then a default name that is inputname\__out.mp4_ will be set
 - If _-start_ command is omitted, then the frame extraction will start at default time set to 00:00:00.00
 
 * * *
